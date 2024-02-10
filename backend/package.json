@@ -1,0 +1,16 @@
+{
+  "name": "dishdex",
+  "version": "1.0.0",
+  "description": "Dishdex is a web application for discovering and sharing recipes from all around the world.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Sebastian R.",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
