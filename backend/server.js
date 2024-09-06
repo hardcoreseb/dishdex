@@ -10,6 +10,9 @@ app.use(favicon(path.join(__dirname, '../frontend/dist/dishdex/browser/favicon.i
 
 app.use(express.static(path.join(__dirname, '../frontend/dist/dishdex/browser')));
 
+app.use('/assets', express.static(path.join(__dirname, '/assets')));
+
+
 app.listen(PORT, () => {
   console.log(`Server is running at http://localhost:${PORT}`);
 });
