@@ -8,7 +8,7 @@ const favicon = require('serve-favicon');
 // Serve the favicon
 app.use(favicon(path.join(__dirname, '../frontend/dist/dishdex/browser/favicon.ico')));
 
-app.use(express.static(path.join(__dirname, '../frontend/dist/dishdex')));
+app.use(express.static(path.join(__dirname, '../frontend/dist/dishdex/browser')));
 
 app.listen(PORT, () => {
   console.log(`Server is running at http://localhost:${PORT}`);
